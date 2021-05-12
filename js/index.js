@@ -1,9 +1,6 @@
 const t = document.getElementsByClassName('t')
-console.log(t)
 for (let item of t) {
-  console.log(item);
   item.addEventListener('mouseover', function changeDefOver(e) {
-    console.log(item.getElementsByClassName('t-title')[0])
     item.getElementsByClassName('t-title1')[0].classList.add('hidde')
     item.getElementsByClassName('m')[0].classList.remove('contract')
     item.getElementsByClassName('m')[0].classList.add('expand')
@@ -13,11 +10,7 @@ for (let item of t) {
     item.getElementsByClassName('t-title1')[0].classList.remove('hidde')
     item.getElementsByClassName('m')[0].classList.add('contract')
     item.getElementsByClassName('m')[0].classList.remove('expand')    
-    
-
   });
-
-
 
 }
 
