@@ -16,7 +16,7 @@ for (let item of t) {
 
 
 grecaptcha.ready(function() {
-  grecaptcha.execute( '6LfFf8oaAAAAAJEnFqr1kZAeobLezLOYXUrGS5J9', {action: 'homepage'}).then(function(token) {
+  grecaptcha.execute( '6LcpDtUaAAAAAISTm3LFQKrIo7sIOfPElN9TOddi', {action: 'homepage'}).then(function(token) {
       // Add your logic to submit to your backend server here.
       $('#google-response').val(token)
   });
